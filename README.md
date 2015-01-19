@@ -1,7 +1,7 @@
 # restful-api
-A sample RESTful API I built as a learning tool. This API powers a micropost social site, similar to twitter. 
+A sample RESTful API I built as a learning tool. This is very incomplete and I wish to polish up the API and sample application and add more features, but since the semester started I won't have much time to do so. This API powers a micropost social site, similar to twitter. 
 You can view the sample application at: <a href="http://social.mattaltepeter.com/">http://social.mattaltepeter.com/</a>. 
-The API lives at: <a href="http://rest.mattaltepeter.com/">http://rest.mattaltepeter.com</a> and calls can be made to that URI, such as: <a href="http://rest.mattaltepeter.com/users/profile/21">http://rest.mattaltepeter.com/users/profile/21</a> 
+The API lives at: <a href="http://rest.mattaltepeter.com/">http://rest.mattaltepeter.com</a> and calls can be made to that URL, such as: <a href="http://rest.mattaltepeter.com/users/profile/21">http://rest.mattaltepeter.com/users/profile/21</a> 
 
 Result of the above API call:
 <pre>
