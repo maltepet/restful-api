@@ -1,0 +1,77 @@
+::selection {
+  background: #00b5ad; /* WebKit/Blink Browsers */
+  color: #fff;
+}
+::-moz-selection {
+  background: #00b5ad; /* Gecko Browsers */
+  color: #fff;
+}
+
+.error.success {
+	background-color: #43AC6A;
+}
+
+.following.bar.light.fixed {
+background-color: #FFFFFF;
+border-bottom: 1px solid #DDDDDD;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.04);
+}
+
+.following .ui.logo {
+	
+
+float: left;
+width: 35px;
+margin-right: 1em;}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.fileUpload:hover {
+	cursor: pointer;
+}
+
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+input.upload:hover {
+	cursor: pointer;
+}
+.img-preview {
+	max-height: 125px;
+	max-width: 125px;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background: #00b5ad;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background: #00c4bc;
+}
+
+.profile-view {
+	display: none;
+}
+
+.profile-view.active {
+	display: block;
+}
+
+.ui.avatar.image {
+	margin-right: .75em;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 16px; }
